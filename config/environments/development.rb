@@ -5,8 +5,6 @@ Rails.application.configure do
   config.hosts = (config.hosts rescue []) << /[-\w]+\.ngrok\.io/
   # Allow Cloudflare tunnels for secure Shopify OAuth redirects
   config.hosts = (config.hosts rescue []) << /[-\w]+\.trycloudflare\.com/
-
-  config.hosts = "e162-2402-e280-230d-553-d60c-1b92-f222-9f42.ngrok-free.app"
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded any time
