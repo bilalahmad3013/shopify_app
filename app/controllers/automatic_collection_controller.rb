@@ -1,0 +1,2 @@
+class AutomaticCollectionController < AuthenticatedController
+end

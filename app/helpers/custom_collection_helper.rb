@@ -1,0 +1,2 @@
+module CustomCollectionHelper
+end
